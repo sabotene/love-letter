@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 42%;
+    width: 100%;
+}
+button{
+    height:40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    border:0.3px solid white;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+button:hover{
+    transform: scale(0.8);
+    background: transparent;
+}
+.image{
+    height: 20px;
+}
+.container{
+    width: 90vw;
+    min-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-year{
+    color: white;
+   text-align: center;
+}
+.image-list-2020{
+    
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:9px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(200px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.image-item1{
+    border: 0.2px double white;
+    border-radius: 20px;
+    width:230px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 0 10px 0;
+    
+}
+.second-year{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.image-list-2021{
+    gap:10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.image-item2{
+    border: 0.2px double white;
+    border-radius: 20px;
+    width:230px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 0 10px 0;
+    
+}
+
+.third-year{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-list-2022{
+    gap:10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.image-item3{
+    border: 0.2px double white;
+    border-radius: 20px;
+    width:230px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 0 10px 0;
+    
+}
+
+body{
+    background: linear-gradient(
+        45deg,
+        red,
+       cyan,
+       pink,
+       purple
+
+    );
+    background-size: 400% 400%;
+    animation: animate 7s ease infinite;
+}
+@keyframes animate{
+    0%{
+     background-position: 0 50%;
+    }
+    50%{
+     background-position: 100% 50%;
+    }
+    0%{
+     background-position: 0 50%;
+    }
+ 
+}
